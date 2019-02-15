@@ -115,7 +115,7 @@ class XLSXReportPabiSupplierListResults(models.Model):
         'res.partner.tag',
         string='Tag ID',
     )
-    tag_name = fields.Float(
+    tag_name = fields.Char(
         string='Tag Name',
         readonly=True,
     )
